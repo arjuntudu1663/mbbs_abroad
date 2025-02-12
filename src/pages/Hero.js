@@ -25,9 +25,9 @@ const Hero = () => {
       
 
       </Container>
-    </Navbar>
+       </Navbar>
 
-    <div style={{height:"70vh",backgroundImage:"linear-gradient(to right,#ffe9b0,white)",width:"100%",display:"grid",placeItems:"center"}} >
+    <div style={{height:"auto",backgroundImage:"linear-gradient(to right,#ffe9b0,white)",width:"100%",display:"grid",placeItems:"center",paddingTop:"100px",paddingBottom:"100px"}} >
             <Container >
                 
             <Row>
@@ -57,8 +57,8 @@ const Hero = () => {
 
             </Container>
     </div>
-    
-    <div style={{width:"100%",display:"grid",placeItems:"center",marginTop:"50px",marginBottom:"50px"}}>
+    <p></p>
+    <div style={{width:"100%",display:"grid",placeItems:"center",paddingTop:"50px",paddingBottom:"50px"}}>
 
         <Container>
               <h1 className='headerFont'>Key Benefits <CiStar/></h1>
